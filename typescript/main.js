@@ -1,6 +1,10 @@
+"use strict";
+exports.__esModule = true;
+exports.shared = void 0;
 var text1 = " typescript ";
 var text2 = " Javascript ";
 var firstnames = "ijaz";
+exports.shared = "2022 end of Dec";
 console.log(firstnames);
 function sum(a, b) {
     console.log("The result is: ".concat(a + b));

@@ -3,6 +3,7 @@ let text2=" Javascript "
 
 let firstnames ="ijaz"
 
+export let shared ="2022 end of Dec";
 console.log(firstnames)
 
 function sum(a: number, b: number) {
