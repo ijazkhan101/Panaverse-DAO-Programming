@@ -1,9 +1,9 @@
 let text1 =" typescript"
 let text2="Javascript"
 
-let firstname : string ="ijaz";
+let firstnames ="ijaz"
 
-console.log(firstname)
+console.log(firstnames)
 
 function sum(a: number, b: number) {
     console.log(`The result is: ${a + b}`);
