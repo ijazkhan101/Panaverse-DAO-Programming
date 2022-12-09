@@ -1,5 +1,5 @@
-let text1 =" typescript"
-let text2="Javascript"
+let text1 =" typescript "
+let text2=" Javascript "
 
 let firstnames ="ijaz"
 

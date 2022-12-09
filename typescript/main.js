@@ -1,7 +1,7 @@
-var text1 = " typescript";
-var text2 = "Javascript";
-var firstname = "ijaz";
-console.log(firstname);
+var text1 = " typescript ";
+var text2 = " Javascript ";
+var firstnames = "ijaz";
+console.log(firstnames);
 function sum(a, b) {
     console.log("The result is: ".concat(a + b));
     return a + b;
