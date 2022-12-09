@@ -1,0 +1,1 @@
+let text1 ="Hello typescript"
