@@ -9,10 +9,10 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>It's me ijaz, an experienced, professional Web developer having experience in Data Science ,Data Analytics ,web application,blockchain applications,front-end development React js and wordpress As a Software Engineering Graduate I worked on Data Science and Analytics as well. I have developed my skills in data cleaning, manipulation, exploratory data analysis, and data visualization with Python and SQL. Data Science Skills: pandas · NumPy · Plotly · Presentation Skills · SQL · Python (Programming Language) · Data Visualization  </p>
+        <p>[YouIntroductionr Self ]</p>
         <p>
-          
-          <a href="https://www.fiverr.com/ijazdev101?public_mode=true">Check my fiverr Account </a>.)
+          (This is a sample website - you’ll be building a site like this on{' '}
+          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
     </Layout>
