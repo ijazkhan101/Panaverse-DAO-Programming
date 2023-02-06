@@ -5,7 +5,6 @@ import styles from './layout.module.css';
 import utilStyles from './utils.module.css';
 
 const name = 'Ijaz khan';
-export const siteTitle = 'Web developer';
 
 export default function RootLayout({
   children,
