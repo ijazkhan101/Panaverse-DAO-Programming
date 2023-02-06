@@ -10,12 +10,11 @@ export default function Home() {
   
   return (
     <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-        Hello world 
-        </p>
-        <Link href='/posts'>Posts</Link>
+      <div className={styles.center}>
+        <h1>Home</h1>
       </div>
+      <Link href='/posts'>Posts</Link>
+      <Link href='/account'>Account</Link>
     </main>
   )
 }
