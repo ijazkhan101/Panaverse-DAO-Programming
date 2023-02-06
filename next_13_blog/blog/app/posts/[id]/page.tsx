@@ -21,8 +21,6 @@ export default async  function Post({params} : {params: {id:string ,date:string}
           <div className={styles.center}>
             <h1>{post!.title}</h1>
             <br/>
-            <h1>{post!.date}</h1>
- 
           </div>
         </main>
       )
