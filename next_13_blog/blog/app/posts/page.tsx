@@ -6,7 +6,7 @@ import { useRouter  } from 'next/navigation';
 
 const inter = Inter({subsets :['latin']});
 
-export default function Post(){
+export default function Posts(){
   const router = useRouter();
     return (
         <main className={styles.main}>
