@@ -1,13 +1,16 @@
 "use client";
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, Heading,Text } from '@chakra-ui/react';
+import Header from './Header';
+import Practice from './Practice';
+import Pricing from './Pricing';
+
 
 export default function Home() {
-  return (  <ChakraProvider>
-
-
-
-
-    <h1>Hello World </h1>
+  return (  
+  <ChakraProvider>
+    <Header />
+    <Pricing />
+  
   </ChakraProvider>
   )
 }
