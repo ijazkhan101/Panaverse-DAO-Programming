@@ -13,11 +13,11 @@ export default function Header() {
             <Image
               src={logo}
               alt="Panaverse Logo"
-              width={150}
+              width={130}
        
             ></Image>
           </Box>
-          <Flex gap={10} color='black' fontSize={18} fontWeight='semibold'>
+          <Flex placeItems='center' gap={10} color='black' fontSize={18} fontWeight='semibold'>
             <Link href=""> Home</Link>
             <Link href=""> Syllabus</Link>
             <Link href=""> Explore </Link>
@@ -25,7 +25,7 @@ export default function Header() {
             <Link href=""> Contact </Link>
           </Flex>
           <Box>
-            <Button float='right' colorScheme={'teal'}>Apply</Button>
+            <Button mt='10px' float='right' colorScheme={'teal'} size='lg'>Apply</Button>
           </Box>
         </SimpleGrid>
       </Container>
