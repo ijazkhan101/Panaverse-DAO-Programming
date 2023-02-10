@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { Box, Container, SimpleGrid, Flex ,Button} from "@chakra-ui/react";
+import {  Box, Button, Container, Flex, SimpleGrid, Menu, IconButton, MenuButton, MenuList, MenuItem} from "@chakra-ui/react";
+import {HamburgerIcon  } from '@chakra-ui/icons';
 import logo from "../../../public/images/PanaverseLogo.png";
 import Link from "next/link";
 export default function Header() {
@@ -17,16 +18,43 @@ export default function Header() {
        
             ></Image>
           </Box>
-          <Flex placeItems='center' gap={10} color='black' fontSize={18} fontWeight='semibold'>
+          <Flex display={{ lg: 'flex', base: 'none' }} placeItems='center' gap={10} color='black' fontSize={18} fontWeight='semibold'>
             <Link href=""> Home</Link>
             <Link href=""> Syllabus</Link>
             <Link href=""> Explore </Link>
             <Link href=""> About </Link>
             <Link href=""> Contact </Link>
           </Flex>
-          <Box>
+          <Box display={{ lg: 'initial', base: 'none' }}>
             <Button mt='10px' float='right' colorScheme={'teal'} size='lg'>Apply</Button>
           </Box>
+          <Box pt='14px' display={{ lg: 'none', base: 'initial' }}>
+                        <Menu  >
+                            <MenuButton float='right'
+                                as={IconButton}
+                                aria-label='Options'
+                                icon={<HamburgerIcon />}
+                                variant='outline'
+                            />
+                            <MenuList>
+                                <MenuItem>
+                                    Home
+                                </MenuItem>
+                                <MenuItem>
+                                    Syllabus
+                                </MenuItem>
+                                <MenuItem>
+                                    Explore
+                                </MenuItem>
+                                <MenuItem>
+                                    About
+                                </MenuItem>
+                                <MenuItem>
+                                    Contact
+                                </MenuItem>
+                            </MenuList>
+                        </Menu>
+                    </Box>
         </SimpleGrid>
       </Container>
     </Box>
