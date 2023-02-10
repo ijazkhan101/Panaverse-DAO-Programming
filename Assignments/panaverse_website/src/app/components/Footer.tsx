@@ -42,9 +42,9 @@ export default function Footer() {
           <Box>
             <Heading color='white'> Contact US</Heading>
             <Grid  pt='40px' color='white'>
-              <Link href='/'>Phone#  : +923085385190</Link>
+              <Link href='/'>+92-308-2220203 (WhatsApp as well)</Link>
               <Link href='/'>Email   : Ijazkhan19932@gmail.com</Link>
-              <Link href='/'>Address : Dir KPK, Pakistan</Link>
+              <Link href='/'>Address : Dir , Pakistan</Link>
             </Grid>
           </Box>
         </SimpleGrid>
