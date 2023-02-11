@@ -1,14 +1,14 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
+    "use client";
+    import React from "react";
+    import Image from "next/image";
+    import Link from "next/link";
 
-import { Box, Button, Container, Flex, Text, Heading ,Grid} from "@chakra-ui/react";
-import CardFunctions from "./Cardfunction";
-import Specialized from "./Specialized";
-export default function HeroSection() {
-  return (
-    <>
+    import { Box, Button, Container, Flex, Text, Heading ,Grid} from "@chakra-ui/react";
+    import CardFunctions from "./Cardfunction";
+    import Specialized from "./Specialized";
+    export default function HeroSection() {
+      return (
+        <>
       <Box as="main">
         {/* 1st section */}
         <Container maxW={"8xl"}>

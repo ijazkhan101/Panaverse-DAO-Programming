@@ -35,7 +35,7 @@ export default function Header() {
             <Link href=""> Home</Link>
             <Link href=""> Syllabus</Link>
             <Link href=""> Explore </Link>
-            <Link href=""> About </Link>
+            <Link href="/"> About </Link>
             <Link href=""> Contact </Link>
             <Link href="https://github.com/panaverse"> Github</Link>
           </Flex>
