@@ -56,13 +56,13 @@
               justifyContent="normal"
               pb={{ base: "5", md: "5", lg: "10" }}
             >
-              <Text fontWeight={"bold"} fontSize="20px" pt="30px">
+              <Text fontWeight={"bold"} color='#23918e'  fontSize="20px" pt="30px">
                 Presidential Initiative for Artificial Intelligence and
                 Computing (PIAIC)
               </Text>
               <Text
                 fontWeight={{ base: "bold", md: "bold", lg: "extrabold" }}
-                fontSize={{ base: "3xl", md: "3xl", lg: "5xl" }}
+                fontSize={{ base: "3xl", md: "3xl", lg: "5xl" }} color='#23918e'
               >
                 Certified Web 3.0 and Metaverse Developer
               </Text>
@@ -105,7 +105,7 @@
               justifyContent="normal"
               padding={{ base: "5", md: "5", lg: "10" }}
             >
-              <Text fontWeight={"bold"} fontSize="20px" pb="10px" pt="10px">
+              <Text fontWeight={"bold"} color='#23918e' fontSize="20px" pb="10px" pt="10px">
                 The Panaverse Community and Syllabus
               </Text>
               <Text>
@@ -177,6 +177,7 @@
                 pb="10px"
                 pt="10px"
                 textAlign={{ sm: "left" }}
+                color='#23918e' 
               >
                 Program of Studies:
               </Text>
@@ -243,6 +244,7 @@
                 mt="25px"
                 pb="10px"
                 pt="10px"
+                color='#23918e'
                 textAlign={{ sm: "left" }}
               >
                 The Program in a Nutshell: Earn While You Learn
@@ -279,7 +281,7 @@
           <Box>
             {/* Content section */}
             <Box mx="auto" pt="5" textAlign={"center"}>
-              <Heading> Core Courses (Common in All Specializations):</Heading>
+              <Heading color='#23918e'> Core Courses (Common in All Specializations):</Heading>
               <Text>
                 Every participant of the program will start by completing the
                 following three core courses:
@@ -292,7 +294,7 @@
           <Box>
             {/* Content section */}
             <Box mx="auto" pt="5" textAlign={"center"}>
-              <Heading> Specialized Tracks:</Heading>
+              <Heading  color='#23918e'> Specialized Tracks:</Heading>
               <Text>
               After completing the first three quarters the participants will select one or more specializations consisting of two courses each:
               </Text>
@@ -326,6 +328,7 @@
                 pb="10px"
                 pt="10px"
                 textAlign={{ sm: "left" }}
+                color='#23918e'
               >
                 The Outcome for Participants of the Program
               </Text>
@@ -333,13 +336,13 @@
               The graduates of this program will own products (Full-Stack App Templates, AR and VR Experiences, and APIs) that are marketed globally by the Panaverse DAO and, if they like, will also be able to start off by offering services at a rate of $50 per hour ($96,000 per year). This would give Pakistani professionals and students a fantastic opportunity to better their financial situation while also giving the economy a much-needed boost by expanding software exports.
               </Text>
               <Box>
-             <Heading color='black' mt='40px'>Useful blog </Heading>
-              <Grid  mb='10px' color='teal.500' mt='40px'>
-                <Link   color='teal.500'  href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"> 1.Top 5 'Metaverse' jobs that will rule the future of tech industry</Link>
-                <Link  color='teal.500'  href="https://web3.career/web3-salaries/blockchain-developer"> 2.Blockchain Developer Salary - Jun 2022</Link>
-                <Link    color='teal.500' href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"> 3.Web3 Salaries Soar to $750,000 for Rank-and-File Devs </Link>
-                <Link   color='teal.500'  href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"> 4.The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet’s Uncharted Waters </Link>
-                <Link    color='teal.500' href="https://www.blockchain-council.org/metaverse/how-to-become-metaverse-developer/"> 5.How To Become Metaverse Developer: Scope, Skills, and Salary </Link>
+             <Heading color='#23918e'  mt='40px'>Useful blog </Heading>
+              <Grid  mb='10px' color='black' mt='40px'>
+                <Link     href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"> 1.Top 5 'Metaverse' jobs that will rule the future of tech industry</Link>
+                <Link  href="https://web3.career/web3-salaries/blockchain-developer"> 2.Blockchain Developer Salary - Jun 2022</Link>
+                <Link    href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"> 3.Web3 Salaries Soar to $750,000 for Rank-and-File Devs </Link>
+                <Link     href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"> 4.The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet’s Uncharted Waters </Link>
+                <Link     href="https://www.blockchain-council.org/metaverse/how-to-become-metaverse-developer/"> 5.How To Become Metaverse Developer: Scope, Skills, and Salary </Link>
               </Grid>
           </Box>
             </Box>
@@ -402,14 +405,14 @@
               </Text>
             
               <Box>
-             <Heading color='black' mt='40px'>Relevant Information Links: </Heading>
-              <Grid  mb='10px' color='teal.500' mt='40px'>
-                <Link   color='teal.500'  href="https://www.piaic.org/"> Admission Website:https://www.piaic.org/</Link>
-                <Link  color='teal.500'  href="https://www.panaverse.co/ "> 2.Blockchain Developer Salary - Jun 2022</Link>
-                <Link    color='teal.500' href="https://www.facebook.com/groups/panaverse "> Facebook: https://www.facebook.com/groups/panaverse  </Link>
-                <Link   color='teal.500'  href="https://www.youtube.com/@panaverse/streams "> YouTube Live Channel: https://www.youtube.com/@panaverse/streams</Link>
-                <Link    color='teal.500' href="https://github.com/panaverse"> GitHub Repos: https://github.com/panaverse</Link>
-                <Link    color='teal.500' href="https://twitter.com/Panaverse_edu "> Twitter: https://twitter.com/Panaverse_edu </Link>
+             <Heading  mt='40px' color='#23918e'>Relevant Information Links: </Heading>
+              <Grid  mb='10px' color='black' mt='40px'>
+                <Link     href="https://www.piaic.org/"> Admission Website:https://www.piaic.org/</Link>
+                <Link    href="https://www.panaverse.co/ "> 2.Blockchain Developer Salary - Jun 2022</Link>
+                <Link     href="https://www.facebook.com/groups/panaverse "> Facebook: https://www.facebook.com/groups/panaverse  </Link>
+                <Link     href="https://www.youtube.com/@panaverse/streams "> YouTube Live Channel: https://www.youtube.com/@panaverse/streams</Link>
+                <Link    href="https://github.com/panaverse"> GitHub Repos: https://github.com/panaverse</Link>
+                <Link     href="https://twitter.com/Panaverse_edu "> Twitter: https://twitter.com/Panaverse_edu </Link>
               </Grid>
           </Box>
             </Box>

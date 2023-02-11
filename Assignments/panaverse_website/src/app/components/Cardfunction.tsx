@@ -36,6 +36,7 @@ export default function CardFunctions() {
             maxW={'8xl'}
             mx='auto'
         >
+          <Link href="Quater1" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -46,7 +47,7 @@ export default function CardFunctions() {
                 
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Quarter I (Core)</Heading>
+                <Heading size="md" color='#23918e'>Quarter I (Core)</Heading>
                 <Text>
                   CS-101: Object-Oriented Programming using TypeScript
                 </Text>
@@ -54,6 +55,8 @@ export default function CardFunctions() {
             </CardBody>
             <Divider />
           </Card>
+          </Link>
+          <Link href="Quater2" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -63,7 +66,7 @@ export default function CardFunctions() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Quarter II (Core)</Heading>
+                <Heading size="md" color='#23918e'>Quarter II (Core)</Heading>
                 <Text>
                 W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform
                 </Text>
@@ -71,6 +74,8 @@ export default function CardFunctions() {
             </CardBody>
             <Divider />
           </Card>
+          </Link>
+          <Link href="Quater3" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -80,13 +85,14 @@ export default function CardFunctions() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Quarter III (Core)</Heading>
+                <Heading size="md" color='#23918e'>Quarter III (Core)</Heading>
                 <Text>
                 $-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development </Text>
               </Stack>
             </CardBody>
             <Divider />
           </Card>
+          </Link>
         </Grid>
       </Flex>
     </>
