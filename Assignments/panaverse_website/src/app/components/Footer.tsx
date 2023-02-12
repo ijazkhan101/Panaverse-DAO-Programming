@@ -5,7 +5,6 @@ import Image from "next/image";
 import logo from "../../../public/images/PanaverseLogo.png";
 import { Box, Container, SimpleGrid, Grid ,Flex ,Button,Heading,Text } from "@chakra-ui/react";
 
-
 export default function Footer() {
     return (
     <Box boxShadow={'lg'} background='white' pl={'30px'} pr={'30px'}>

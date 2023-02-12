@@ -62,12 +62,12 @@ export default function Header() {
             </Menu>
             <Menu>
               <MenuButton
-                px={4}
-                py={2}
-                transition="all 0.2s"
-                borderRadius="md"
-                fontWeight={"600"}
-                color="black"
+                 px={4}
+                 py={2}
+                 transition="all 0.2s"
+                 borderRadius="md"
+                 fontWeight={"610"}
+                 color="#174e4d"
               >
                 Specializations
               </MenuButton>
@@ -96,7 +96,7 @@ export default function Header() {
               </MenuList>
             </Menu>
 
-            <Link href=""> Contact </Link>
+            <Link href="Contact"> Contact </Link>
           </Flex>
           <Box display={{ lg: "initial", base: "none" }}>
             <Link href="https://github.com/panaverse">
