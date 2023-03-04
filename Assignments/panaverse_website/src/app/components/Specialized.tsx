@@ -36,6 +36,7 @@ export default function Specialized() {
             maxW={'8xl'}
             mx='auto'
         >
+          <Link href="Web3" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -46,12 +47,14 @@ export default function Specialized() {
                 
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Web 3.0 (Blockchain) and Metaverse Specialization</Heading>
+                <Heading size="md" color='#23918e'>Web 3.0 (Blockchain) and Metaverse Specialization</Heading>
               
               </Stack>
             </CardBody>
             <Divider />
           </Card>
+          </Link>
+          <Link href="AI" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -61,12 +64,14 @@ export default function Specialized() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Artificial Intelligence (AI) and Deep Learning Specialization</Heading>
+                <Heading size="md" color='#23918e'>Artificial Intelligence (AI) and Deep Learning Specialization</Heading>
           
               </Stack>
             </CardBody>
             <Divider />
           </Card>
+          </Link>
+          <Link href="Cloud" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -76,11 +81,12 @@ export default function Specialized() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Cloud-Native Computing Specialization</Heading>
+                <Heading size="md" color='#23918e'>Cloud-Native Computing Specialization</Heading>
               </Stack>
             </CardBody>
             <Divider />
           </Card>
+          </Link>
         </Grid>
         
       </Flex>
@@ -105,6 +111,7 @@ export default function Specialized() {
             maxW={'8xl'}
             mx='auto'
         >
+          <Link href="Iot" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -115,12 +122,14 @@ export default function Specialized() {
                 
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Ambient Computing and IoT Specialization</Heading>
+                <Heading size="md" color='#23918e'>Ambient Computing and IoT Specialization</Heading>
               
               </Stack>
             </CardBody>
             <Divider />
           </Card>
+          </Link>
+          <Link href="Bioinformatics" target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -130,13 +139,14 @@ export default function Specialized() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Genomics and Bioinformatics Specialization</Heading>
+                <Heading size="md" color='#23918e'>Genomics and Bioinformatics Specialization</Heading>
           
               </Stack>
             </CardBody>
             <Divider />
           </Card>
-          <Link href='https://panaverse-mk.vercel.app/'>
+          </Link>
+          <Link href='Network' target="_blank">
           <Card maxW="sm">
             <CardBody>
               <Image
@@ -146,7 +156,7 @@ export default function Specialized() {
                 height={60}
               ></Image>
               <Stack mt="6" spacing="3">
-                <Heading size="md">Network Programmability and Automation Specialization</Heading>
+                <Heading size="md" color='#23918e'>Network Programmability and Automation Specialization</Heading>
               </Stack>
             </CardBody>
             <Divider />

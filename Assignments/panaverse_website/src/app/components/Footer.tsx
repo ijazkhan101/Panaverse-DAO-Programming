@@ -5,14 +5,13 @@ import Image from "next/image";
 import logo from "../../../public/images/PanaverseLogo.png";
 import { Box, Container, SimpleGrid, Grid ,Flex ,Button,Heading,Text } from "@chakra-ui/react";
 
-
 export default function Footer() {
     return (
-    <Box boxShadow={'lg'} background='white'>
+    <Box boxShadow={'lg'} background='white' pl={'30px'} pr={'30px'}>
       <Container maxW={1400}>
         <SimpleGrid textAlign={{lg:'start',base:'center'}} spacing='30px' py='60px' templateColumns={{base:'repeat(1, 1fr)', lg:'repeat(4, 1fr)'}}>
           <Box>
-            <Heading  pb='20px' color='black'> About US</Heading>
+            <Heading  pb='20px' color='#23918e'> About US</Heading>
             <Image
               src={logo}
               alt="Panaverse Logo"
@@ -21,17 +20,17 @@ export default function Footer() {
             ></Image> <Text color='black'>The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread</Text>
           </Box>
           <Box>
-          <Heading color='black'>Useful links</Heading>
+          <Heading color='#23918e'>Useful links</Heading>
             <Grid  pt='40px' color='black'>
-              <Link href=""> Home</Link>
-              <Link href=""> Syllabus</Link>
+              <Link href="/"> Home</Link>
+              <Link href="Quater1"> Syllabus</Link>
               <Link href=""> Explore </Link>
-              <Link href=""> About </Link>
+              <Link href="About"> About </Link>
               <Link href=""> Contact </Link>
             </Grid>
           </Box>
           <Box>
-           <Heading   color='black'> Floow Us</Heading>
+           <Heading   color='#23918e'> Flow Us</Heading>
             <Grid  pt='40px' color='black'>
               <Link href="https://www.facebook.com/groups/panaverse "> Facbook</Link>
               <Link href=" https://github.com/panaverse"> Github</Link>
@@ -40,7 +39,7 @@ export default function Footer() {
             </Grid>
           </Box>
           <Box>
-            <Heading color='black'> Contact US</Heading>
+            <Heading color='#23918e'> Contact US</Heading>
             <Grid  pt='40px' color='black'>
               <Link href='/'>+92-308-2220203 (WhatsApp as well)</Link>
               <Link href='/'>Email   : Ijazkhan19932@gmail.com</Link>
