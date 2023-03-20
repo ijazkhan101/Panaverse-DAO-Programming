@@ -1,5 +1,5 @@
 import './globals.css'
-
+import Header from './components/Header'
 export const metadata = {
   title: 'Panaverse Website',
   description: 'Panaverse Website using Tailwind CSS',
@@ -12,7 +12,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
