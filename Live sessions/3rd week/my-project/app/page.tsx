@@ -3,6 +3,8 @@ import Image from 'next/image'
 // import styles from './page.module.css'
 import Navbar from '@/components/Navbar'
 import About from '@/components/About'
+import Team from '@/components/Team'
+import FexContainer from '@/components/FexContainer'
 
 
 export default function Home() {
@@ -10,7 +12,8 @@ export default function Home() {
    <>
    <Navbar/>
    <About />
-
+   <Team/>
+   <FexContainer />
    </>
   )
 }

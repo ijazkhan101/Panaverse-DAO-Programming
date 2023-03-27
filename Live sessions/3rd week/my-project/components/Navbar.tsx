@@ -6,7 +6,7 @@ import { Inter } from 'next/font/google'
 export default function Navbar() {
   return (
     <main>
-      <div className="flex bg-gray-800 text-gray-300 justify-around flex-wrap">
+      <div className="flex bg-gray-800 text-gray-300 justify-around flex-wrap p-3">
         <div className='px'>Home</div>
         <div>About </div>
         <div>Services </div>
