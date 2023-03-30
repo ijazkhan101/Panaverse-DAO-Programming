@@ -1,4 +1,6 @@
+import Head from "next/head";
 import "./globals.css";
+import Header from "./components/layout/Header";
 
 export const metadata = {
   title: "Panaverse Website",
@@ -13,7 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* Navigation Bar*/}
+        {/* Header*/}
+        <Header />
         {children}</body>
     </html>
   );
