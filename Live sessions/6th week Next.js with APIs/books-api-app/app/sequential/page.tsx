@@ -29,26 +29,23 @@ async function getNonfiction() {
   return data;
 }
 
-export default async function Parallel() {
-  const fictionBooks = getNonfiction();
-  const nonfictionBooks = getNonfiction();
+export default async function Sequential() {
+  const fictionBooks =  await getNonfiction();
+  const nonfictionBooks = await  getNonfiction();
 
-  const [fiction, nonfiction] = await Promise.all([
-    fictionBooks,
-    nonfictionBooks,
-  ]);
+  
 
   return (
     <div>
       <h1>Fiction Books </h1>
       <ul>
-        {fiction.map((book: Book) => (
+        {fictionBooks.map((book: Book) => (
           <li key={book.id}>{book.name}</li>
         ))}
       </ul>
       <h1>Non Fiction Books </h1>
       <ul>
-        {nonfiction.map((book: Book) => (
+        {nonfictionBooks.map((book: Book) => (
           <li key={book.id}>{book.name}</li>
         ))}
       </ul>
