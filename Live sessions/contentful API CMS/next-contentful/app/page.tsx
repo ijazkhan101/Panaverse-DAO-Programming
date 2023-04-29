@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 async function getBlogs() {
-  const res = await fetch(`https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_ACCESS_KEY}&content_type=blog`);
+  const res = await fetch(`https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/enviroments/${process.env.CONTENTFUL_ENVIRONMENT}/content_types?access_token=${process.env.CONTENTFUL_TOKEN}&content_type=article`);
   
   // Recommendation: handle errors
   if (!res.ok) {
@@ -21,7 +21,7 @@ export default async function Home() {
   return (
     <ul>
       {blogs.items.map((item: any) => (
-        <li>{item.fields.name}</li>
+        <li key={item.fields.id}>{item.fields.name}</li>
       ))}
     </ul>
   )

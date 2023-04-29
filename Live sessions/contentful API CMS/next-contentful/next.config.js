@@ -4,8 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   env:{
-    spaceId: 'piuof7tj3df1',
-    environment : "master",
+    CONTENTFUL_SPACE_ID: 'piuof7tj3df1',
+    CONTENTFUL_ENVIRONMENT : "master",
   },
 };
 
