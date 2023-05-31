@@ -9,3 +9,4 @@
 # Build a new PIAIC Website using Next.js 13/Chakra UI : https://panaverse-website-ijazkhan101.vercel.app/
 
 
+#   Ijaz Portfolio Website      https://ijaz-portfolio.netlify.app/
